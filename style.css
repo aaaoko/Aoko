@@ -5,9 +5,12 @@ body {
     margin-top: 0%;
     color: White;
     font-size: 1em;
-  cursor: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/07830a70-5c16-4386-8e8a-7d11871646ac/debclzm-b06c9451-e9aa-4d8f-8bf1-81735c020d5b.png/v1/fill/w_256,h_256/photoshop_pixel_icon__beetle__by_piles_of_peaches_debclzm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvMDc4MzBhNzAtNWMxNi00Mzg2LThlOGEtN2QxMTg3MTY0NmFjXC9kZWJjbHptLWIwNmM5NDUxLWU5YWEtNGQ4Zi04YmYxLTgxNzM1YzAyMGQ1Yi5wbmciLCJ3aWR0aCI6Ijw9MjU2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.E3nOJsoSBKTAQRipCu8WQVbc7bf5SBzfZ1VUSTql6VQ'), auto;
+    cursor: url('http://profilki.pl/img/files/cur/939.png'), auto;
 }
 
+.lol {
+    color: White;
+  }
 .rainbow-text {
   
     font-size: 3em;
@@ -49,7 +52,4 @@ body {
         .rainbow-button:hover {
             background: black;
         }
- 
-.lol {
-    color: White;
-  }
+
