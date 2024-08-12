@@ -1,0 +1,42 @@
+@keyframes rainbow {
+    0% { background-position: 0%; }
+    100% { background-position: 100%; }
+}
+
+.rainbow-text {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: rainbow 1s linear infinite;
+}
+.rainbow-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background: linear-gradient(90deg, #000000,#000000,#000000,#c7f3ff, #000000,#000000, #000000);
+            background-size: 300% 300%;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            animation: yes 1s linear infinite;
+  }
+        @keyframes yes {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 0% 0%; }
+            51% { background-position: 1% 1%; }
+            95% { background-position: 100% 100%; }
+          96% { background-position: 0% 0%; }
+            100% { background-position: 0% 0%; }
+        }
+            transition: background-position 0.5s ease;
+        }
+        .rainbow-button:hover {
+            background: black;
+        }
+</html>
