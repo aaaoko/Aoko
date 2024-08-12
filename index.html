@@ -5,11 +5,41 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⋆𐙚₊˚⊹♡AOKOPAGE⋆౨ৎ˚⟡˖ ࣪</title>
-<head>
-  <audio>
-<audio src="lib/wave.wav" autoplay loop controls></audio>
-     <audio>
+</head>
+<style>
+    #myGif {
+      display: none; 
+     position: absolute;
+     top: 0; 
+     left: 25%; 
+     z-index: 10;
+  }
+  </style>
+  <body>
 <h1> HOLA SALACATUNGAS :DDD</h1>
+<button Class="rainbow-button" onclick="toggleAudio()" id="audioButton">Pongale play</button>
+<audio id="myAudio" src="https://cdn.freesound.org/previews/659/659889_8927049-lq.mp3" loop></audio>
+<h1></h1>
+<img id="myGif" src="https://media.tenor.com/yk8nhx3fZGYAAAAj/sebas-bleizeffer.gif">
+<script>
+  function toggleAudio() {
+    var audio = document.getElementById('myAudio');
+    var button = document.getElementById('audioButton');
+    var gif = document.getElementById('myGif');
+    
+    if (audio.paused) {
+      audio.play();
+      button.textContent = "II";
+      gif.style.display = 'block';
+            
+    } else {
+      audio.pause();
+      button.textContent = "▷";
+      gif.style.display = 'none'; 
+    }
+  }
+                             
+</script>
 <h1 class="rainbow-text">letras geis</h1>
 <h1 class="lol"> this is my page</h1>
 <button class="rainbow-button" onclick="window.location.href='https://www.instagram.com/aaaoko_/';">El insta</button>
@@ -24,6 +54,6 @@
   <div>
     <h1 class="lol">qiubole</h1>
     <h1 class="rainbow-text">letras geis</h1>
-    </body>
+ </body>
 
     </html>
